@@ -2,7 +2,6 @@ import requests
 import os
 
 API_KEY = os.getenv('API_KEY', '')
-# API_KEY = '24b37b34c869c9d6f69fa51d30245426'
 
 
 def API_LINK(city, source='openweathermap'):
@@ -17,7 +16,7 @@ def API_LINK(city, source='openweathermap'):
 
     kwargs = ['='.join(i) for i in kwargs.items()]
 
-    # EXAMPLE: '''https://api.openweathermap.org/data/2.5/weather?q=Moscow,ru&units=metric&appid=24b37b34c869c9d6f69fa51d30245426'''
+    # EXAMPLE: '''https://api.openweathermap.org/data/2.5/weather?q=Moscow,ru&units=metric&appid=API_KEY'''
     link = main_link + method + '&'.join(kwargs)
 
     return link
