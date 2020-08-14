@@ -35,7 +35,7 @@ This project is writed on flask and has three interfaces:
        "icon_img": "http://openweathermap.org/img/wn/04n@2x.png", 
        "status": "Clouds", 
        "temperature": 13.96, 
-       "wind": "3 \u043c/\u0441"
+       "wind": "3 м/с"
     }
     }
  ```
