@@ -3,7 +3,7 @@
 ### ABOUT
 This project use public weather api for get weather status for choosed city
 
-Public apis:
+#### Used public apis:
     1. https://openweathermap.org/api
 
 ### How to use it
