@@ -15,6 +15,8 @@ This project use public weather api for get weather status for choosed city
     pip install -r requerements.txt
     python3 run.py
 
+If you run script as above instructions, then by default yourserverhost will be 127.0.0.1:5000
+and for use it need to go to the page https://127.0.0.1:5000/weather
 ### How to use it. 
 
 This project is writed on flask and has three interfaces:
@@ -37,8 +39,6 @@ This project is writed on flask and has three interfaces:
     }
     }
  ```
+  
 
-     
 
-If you run script as above instructions, then by default yourserverhost will be 127.0.0.1:5000
-and for use it need to go to the page https://127.0.0.1:5000/weather
