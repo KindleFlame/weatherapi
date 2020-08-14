@@ -28,7 +28,7 @@ If you run script as above instructions, then by default yourserverhost will be 
 and for use it need to go to the page https://127.0.0.1:5000/weather
 
 ### How to use it. 
-
+Cities must be in English language
 This project is writed on flask and has three interfaces:
 
 1. You can get city weather by form on address: 'https://yourserverhost/weather'
@@ -49,6 +49,6 @@ This project is writed on flask and has three interfaces:
     }
     }
  ```
-  
+ 
 
 
