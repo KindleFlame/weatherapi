@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    {% for k, v in data.items() %}
+        {% if 'img' in k %}
+<!--            <div><h3>{{ k }} : </h3>{{v}}</div>-->
+            <p><img src={{ v }}></p>
+        {% else %}
+            <div><h3>{{ k }} : {{ v }}</h3></div>
+        {% endif %}
+    {% endfor %}
+{% endblock %}
