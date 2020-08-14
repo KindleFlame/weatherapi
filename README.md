@@ -15,7 +15,7 @@ Use it as enviroment variable or as a variable on app/.env file
     source ./weatherapi/venv/bin/activate
     cd weatherapi/
     pip install -r requirements.txt
-    API_KEY=yourapikey
+    export API_KEY=yourapikey
     python3 run.py
 
 If you run script as above instructions, then by default yourserverhost will be 127.0.0.1:5000
