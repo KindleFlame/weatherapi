@@ -7,12 +7,15 @@ This project use public weather api for get weather status for choosed city
     1. https://openweathermap.org/api
 
 ### How to run it
+Firstly you need API_KEY for openweathermap.org/api. 
+Use it as enviroment variable or as a variable on app/.env file
 #### for Ubuntu:
     git clone git@github.com:KindleFlame/weatherapi.git
     python3 -m venv ./weatherapi/venv/ 
     source ./weatherapi/venv/bin/activate
     cd weatherapi/
     pip install -r requirements.txt
+    API_KEY=yourapikey
     python3 run.py
 
 If you run script as above instructions, then by default yourserverhost will be 127.0.0.1:5000
