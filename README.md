@@ -12,7 +12,7 @@ This project use public weather api for get weather status for choosed city
     python3 -m venv ./weatherapi/venv/ 
     source ./weatherapi/venv/bin/activate
     cd weatherapi/
-    pip install -r requerements.txt
+    pip install -r requirements.txt
     python3 run.py
 
 If you run script as above instructions, then by default yourserverhost will be 127.0.0.1:5000
