@@ -18,8 +18,15 @@ Use it as enviroment variable or as a variable on app/.env file
     export API_KEY=yourapikey
     python3 run.py
 
+#### for Ubuntu, if you want run in docker container:
+    git clone git@github.com:KindleFlame/weatherapi.git
+    cd weatherapi/
+    docker build -f .Dockerfile -t weatherapi .
+    sudo docker run -it --net=host weatherapi
+
 If you run script as above instructions, then by default yourserverhost will be 127.0.0.1:5000
 and for use it need to go to the page https://127.0.0.1:5000/weather
+
 ### How to use it. 
 
 This project is writed on flask and has three interfaces:
